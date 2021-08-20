@@ -1,5 +1,5 @@
 /**
-* v-dialogDragWidth 可拖动弹窗宽度
+* v-dialogDragWidth 可拖动弹窗宽度（右侧边）
 * Copyright (c) 2019 ruoyi
 */
 
@@ -24,8 +24,7 @@ export default {
                     document.onmousemove = null;
                     document.onmouseup = null;
                 };
-            },
-        );
+            }, false);
         dragDom.appendChild(lineEl);
     }
 }
